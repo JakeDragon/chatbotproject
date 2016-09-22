@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="chatbot.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <title>
-       Eliza
+       TheMing
     </title>
 </head>
 <body>
@@ -20,12 +20,12 @@
         <div class="row">
             <div class="col-xs-3 col-md-2">
                 <div id="left-sidebar">
-                  <p>Type your question and press the button to chat with the bot.</p>
+                  <p>Ask the Ming</p>
                 </div>
             </div>
             <div class="col-xs-12 col-md-8">
               <div id="question-area" data-spy="affix" data-offset-top="60">
-                <input type="text" id="input" value=""><button type="button" id="talkButton" class="btn-talk">Speak</button>
+                <input type="text" id="input" value=""><button type="button" id="talkButton" class="btn-talk" onClick='askQuestion()'>Speak</button>
               </div>
                 <div id="chat-area">
                 </div>
